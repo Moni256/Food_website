@@ -1,1 +1,1 @@
-# Food_website
+Responsive Food website using HTML and CSS
