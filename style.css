@@ -1,0 +1,150 @@
+#head{
+    text-align: center;
+    text-shadow:5px 5px 20px black,0 0 25px rgb(183, 255, 0),0 0 5px darkblue;
+    padding-top: 200px;
+    background-image: url(image/1000_F_850325159_2kS0L8XJZjVECLnE0aEMYvhf46c52x3P.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   body{
+    
+    background-repeat: inherit;
+    background-image: 200px;
+    background: linear-gradient(to right,#ff6699 0%,#ff99cc 45%);
+    background-repeat: no-repeat;
+    
+   }
+   .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+   }
+   #b{
+    color: black;
+   }
+#i{
+    text-shadow:2px 2px 5px black,0 0 25px rgb(255, 0, 81),0 0 5px darkblue;
+}
+#ii{
+    text-align: center;
+    
+}
+#s{
+    margin-left: 30px;
+    float: left;
+}
+body{
+    background: #222;
+    background-image: repeating-linear-gradient( to bottom, transparent 7px, rgba(0, 0, 0, 0.8) 9px, rgba(0, 0, 0, 0.8) 13px, transparent 13px );
+}
+.text-effect{
+    color: #fff6a9;
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px auto 0;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    position: relative;
+    animation: animate 2s ease-in-out infinite;
+    @keyframes animate{
+    20%, 24%, 55%{
+        color: #111;
+        text-shadow: none;
+    }
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100%{
+        color: #fff6a9;
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    }
+}
+@media only screen and (max-width: 990px){
+    .text-effect{ font-size: 100px; }
+}
+@media only screen and (max-width: 767px){
+    .text-effect{ font-size: 80px; }
+}
+@media only screen and (max-width: 479px){
+    .text-effect{ font-size: 60px; }
+}
+@media only screen and (max-width: 359px){
+    .text-effect{ font-size: 45px; }
+}
+}
+body{
+background-color: #101010;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(232, 33, 11);
+}
+p {
+  
+    font-size: 50px;
+    color: lightblue;
+    text-shadow: 5px 5px 30px blue;
+    font-style: italic;
+    animation-name: repeat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+    margin-top: 130px;
+    float: left;
+    text-align: center;
+
+}
+
+@keyframes repeat {0% {color: rgb(208, 36, 36); text-shadow: 5px 5px 30px rgb(230, 190, 173);}
+  20% {color: #f2454b; text-shadow: 5px 5px 30px  #f25c45;}
+  40% {color: #da8c2d; text-shadow: 5px 5px 30px  #da2d38;}
+  60% {color: #4b7bec; text-shadow: 5px 5px 30px  #2d98da;}
+  80% {color: #3867d6; text-shadow: 5px 5px 30px  #3867d6;}
+  100% {color: lightblue; text-shadow: 5px 5px 30px  lightblue;}
+
+}
+#b:hover{ 
+        padding: 10px 10px 10px 10px;
+        border: 5px solid rgb(171, 15, 15);
+        box-shadow: 2px 3px 10px rgb(234, 255, 0),
+        0px 0px 25px rgb(164, 192, 27),
+        0px 0px 35px rgb(216, 245, 30),
+        0px 0px 45px #dafe39,
+        0px 2px 55px rgb(185, 254, 35);
+}
+        .o{
+            float: right;
+            color: #3efcdc;
+            margin-top: 200px;
+            text-shadow:2px 2px 5px  #310473;
+            background-image: url(image/momo.jpg);
+            background-repeat: no-repeat;
+        }
+ #g1:hover{ 
+        padding: 10px 10px 10px 10px;
+        border: 5px solid rgb(171, 15, 15);
+        box-shadow: 2px 3px 10px rgb(234, 255, 0),
+        0px 0px 25px rgb(164, 192, 27),
+        0px 0px 35px rgb(216, 245, 30),
+        0px 0px 45px #dafe39,
+        0px 2px 55px rgb(185, 254, 35);
+}
+#g2:hover{ 
+        padding: 10px 10px 10px 10px;
+        border: 5px solid rgb(171, 15, 15);
+        box-shadow: 2px 3px 10px rgb(234, 255, 0),
+        0px 0px 25px rgb(164, 192, 27),
+        0px 0px 35px rgb(216, 245, 30),
+        0px 0px 45px #dafe39,
+        0px 2px 55px rgb(185, 254, 35);
+}
+#g3:hover{ 
+        padding: 10px 10px 10px 10px;
+        border: 5px solid rgb(171, 15, 15);
+        box-shadow: 2px 3px 10px rgb(234, 255, 0),
+        0px 0px 25px rgb(164, 192, 27),
+        0px 0px 35px rgb(216, 245, 30),
+        0px 0px 45px #dafe39,
+        0px 2px 55px rgb(185, 254, 35);
+}
